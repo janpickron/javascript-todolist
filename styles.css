@@ -1,0 +1,97 @@
+/* To Do List  on styles.css running JavaScript, HTML, and CSS  */
+/* comment */
+
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  width: 100%;
+  background-color: salmon;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.todoApp {
+  height: 100%;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.todoApp h1 {
+  text-align: center;
+}
+
+.todoApp p {
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+.todoApp input {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 80%;
+  padding-left: 5px;
+  margin: 0px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.todoApp input[type="checkbox"] {
+  width: 15px;
+}
+
+.todoApp button {
+  border-radius: 10%;
+  padding: 4px 8px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.todoApp button:hover {
+  background-color: salmon;
+  color: white;
+  cursor: pointer;
+}
+
+.container ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #53BDFF;
+}
+
+.container li span {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.container li.done span {
+  text-decoration: line-through;
+}
+
+.container button.remove-button {
+  background-color: white;
+  color: black;
+  margin-left: auto;
+  text-transform: lowercase;
+  border-radius: 80%;
+}
+
+.container button.remove-button:hover {
+  background-color: red;
+}
